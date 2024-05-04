@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Games/static/css/main.c6470336.css",
+    "main.js": "/Games/static/js/main.cec87bcb.js",
+    "static/js/453.114fd8a8.chunk.js": "/Games/static/js/453.114fd8a8.chunk.js",
+    "static/media/fa-solid-900.ttf": "/Games/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
+    "static/media/fa-brands-400.ttf": "/Games/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
+    "static/media/fa-solid-900.woff2": "/Games/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
+    "static/media/fa-brands-400.woff2": "/Games/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
+    "static/media/fa-regular-400.ttf": "/Games/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
+    "static/media/fa-regular-400.woff2": "/Games/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Games/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Games/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
+    "index.html": "/Games/index.html",
+    "main.c6470336.css.map": "/Games/static/css/main.c6470336.css.map",
+    "main.cec87bcb.js.map": "/Games/static/js/main.cec87bcb.js.map",
+    "453.114fd8a8.chunk.js.map": "/Games/static/js/453.114fd8a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6470336.css",
+    "static/js/main.cec87bcb.js"
+  ]
+}
