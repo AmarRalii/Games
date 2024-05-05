@@ -4,7 +4,7 @@ import logo from '../../assets/logo-sm.png';
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-md navbar-light  text-white">
+    <nav className="navbar navbar-expand-md navbar-expand-sm navbar-expand-lg navbar-light  text-white">
       <div className="container-fluid">
         <Link className="navbar-brand text-white" to="/">
           <img src={logo} className="w-25" alt="Logo" /> GAME REVIEWS

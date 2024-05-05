@@ -1,42 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 
-
 .nerko-one-regular {
   font-family: "Nerko One", cursive;
   font-weight: 400;
   font-style: normal;
 }
 
-
 .loading {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(240, 243, 242, 0.5);
-  }
- 
-  .parent{
-    min-height: 120vh;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-  }
-  .cursor-pointer{
-    cursor: pointer;
-  }
-  body{
-    font-family: var(--font-family) !important;
-    overflow-x: hidden;
-    min-height: 120vh;
-    background-color: #272B30 !important;
-    color: rgb(255, 255, 255) !important;
-
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(240, 243, 242, 0.5);
 }
-.navbar{
+
+.parent {
+  min-height: 120vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+body {
+  font-family: "Nerko One", cursive;
+  overflow-x: hidden;
+  min-height: 120vh;
+  background-color: #272B30 !important;
+  color: #ffffff !important;
+}
+
+.navbar {
   background-color: #3A497B;
   position: fixed !important;
   top: 0;
@@ -44,33 +44,31 @@
   right: 0;
   z-index: 9999;
 }
-.btn{
-  background-color: #3A497B !important;
-  color: aliceblue !important;
+
+.btn {
+  background-color: #3A497B;
+  color: aliceblue;
 }
-a{
+
+a {
   text-decoration: none !important;
-  color: #fff !important;
+  color: #ffffff !important;
 }
 
-.detailes{
-  min-height: 90vh;
+.detailes {
+  min-height: 95vh;
 }
 
-.footer{
-  height: 10vh;
-  background-color: #1f2124;
+.footer {
+  height: 10%;
+  background-color: #1f2124 !important;
+  color: #ffffff !important;
 }
 
-
-
-.badge-color{
-  background-color:#32383e ;
-  height: 2em;
+.badge-color {
+  background-color: #32383e !important;
+  height: 2em !important;
 }
-
-
-
 
 .row {
   display: flex;
@@ -79,14 +77,10 @@ a{
 }
 
 .col-md-3 {
-  flex: 1 1 23%; 
+  flex: 1 1 23%;
   min-width: 250px;
   max-width: 300px;
   padding: 15px;
-}
-
-.cursor-pointer {
-  cursor: pointer;
 }
 
 .game {
@@ -95,14 +89,12 @@ a{
   padding: 10px;
   width: 23% !important;
   margin: 10px;
-  min-height: 60vh;
   transition: transform 0.2s;
 }
 
 .game:hover {
   transform: scale(1.05);
 }
-
 
 @media (min-width: 995px) {
   .col-md-3 {
@@ -112,12 +104,56 @@ a{
 
 @media (max-width: 995px) {
   .col-md-3 {
-    flex: 1 1 45%; 
+    flex: 1 1 45%;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
   .col-md-3 {
-    flex: 1 1 100%; 
+    flex: 1 1 100%;
+    max-width: 100%;
   }
 }
+
+
+
+
+
+
+
+
+.game-details-container {
+  padding: 20px;
+  background-color: #272B30; /* Dark background to match your theme */
+  color: #ffffff; /* White text for contrast */
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.badge-primary {
+  background-color: #3A497B; /* Primary color for badges */
+  color: aliceblue;
+}
+
+@media (max-width: 768px) {
+  /* For smaller screens like tablets and mobile phones */
+  .col-md-4 {
+    flex: 1 1 100%; /* Take full width on smaller screens */
+    text-align: center;
+  }
+  .col-md-8 {
+    flex: 1 1 100%; /* Take full width on smaller screens */
+    text-align: left;
+  }
+}
+
+@media (max-width: 576px) {
+  /* For very small screens like mobile phones */
+  .game-details-container {
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+}
+

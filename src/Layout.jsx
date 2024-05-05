@@ -12,7 +12,7 @@ export default function () {
   
   return <div>
   <Navbar/>
-  <div className='container container-lg container-fluid container-md container-sm container-xl '>
+  <div className='container  '>
     <Outlet></Outlet>
   </div>
   <Footer></Footer>
