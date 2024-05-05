@@ -34,6 +34,7 @@
   top: 0;
   left: 0;
   right: 0;
+  z-index: 9999;
 }
 .btn{
   background-color: #3A497B !important;
@@ -55,9 +56,63 @@ a{
 
 
 .game{
-  min-height: 55vh;
+  max-height: 55vh;
 }
 .badge-color{
   background-color:#32383e ;
   height: 2em;
+}
+
+/* styles.css */
+
+/* Default styles */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col-md-3 {
+  flex: 1 1 23%; /* This value might need tweaking for desired spacing */
+  min-width: 250px; /* Ensures a minimum width for each card */
+  max-width: 300px;
+  padding: 15px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.game {
+  border: 1px solid #32383e;
+  border-radius: 5px;
+  padding: 10px;
+  width: 23% !important;
+  margin: 10px;
+  transition: transform 0.2s;
+}
+
+.game:hover {
+  transform: scale(1.05);
+}
+
+/* Adjustments for screens wider than 995px */
+@media (min-width: 995px) {
+  .col-md-3 {
+    flex: 1 1 23%;
+  }
+}
+
+/* Adjustments for screens smaller than 995px (e.g., mobile and tablet) */
+@media (max-width: 995px) {
+  .col-md-3 {
+    flex: 1 1 45%; /* Two columns on smaller screens */
+  }
+}
+
+/* Adjustments for mobile screens */
+@media (max-width: 600px) {
+  .col-md-3 {
+    flex: 1 1 100%; /* One column on mobile screens */
+  }
 }
