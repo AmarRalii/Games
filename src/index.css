@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+
+.nerko-one-regular {
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 .loading {
     position: fixed;
@@ -55,17 +63,15 @@ a{
 }
 
 
-.game{
-  max-height: 55vh;
-}
+
 .badge-color{
   background-color:#32383e ;
   height: 2em;
 }
 
-/* styles.css */
 
-/* Default styles */
+
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -73,8 +79,8 @@ a{
 }
 
 .col-md-3 {
-  flex: 1 1 23%; /* This value might need tweaking for desired spacing */
-  min-width: 250px; /* Ensures a minimum width for each card */
+  flex: 1 1 23%; 
+  min-width: 250px;
   max-width: 300px;
   padding: 15px;
 }
@@ -89,6 +95,7 @@ a{
   padding: 10px;
   width: 23% !important;
   margin: 10px;
+  min-height: 60vh;
   transition: transform 0.2s;
 }
 
@@ -96,23 +103,21 @@ a{
   transform: scale(1.05);
 }
 
-/* Adjustments for screens wider than 995px */
+
 @media (min-width: 995px) {
   .col-md-3 {
     flex: 1 1 23%;
   }
 }
 
-/* Adjustments for screens smaller than 995px (e.g., mobile and tablet) */
 @media (max-width: 995px) {
   .col-md-3 {
-    flex: 1 1 45%; /* Two columns on smaller screens */
+    flex: 1 1 45%; 
   }
 }
 
-/* Adjustments for mobile screens */
 @media (max-width: 600px) {
   .col-md-3 {
-    flex: 1 1 100%; /* One column on mobile screens */
+    flex: 1 1 100%; 
   }
 }
